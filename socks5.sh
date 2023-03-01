@@ -6,5 +6,4 @@ function install_socks5() {
   wget --no-check-certificate https://raw.githubusercontent.com/q425636581/linux-http/main/install.sh -O install_proxy.sh
   bash install_proxy.sh --port=10316 --user=liu --passwd=liu
 }
-install_http
 install_socks5
